@@ -1,8 +1,7 @@
 # Atul Kumar Soni
 
 ## Education
-|         |                        |                                         |                         |
-|---------|------------------------|-----------------------------------------|-------------------------|
+
 | Ph.D.   | Electrical Engineering | Indian Institute of Technology Kanpur   | (_Aug 2018 - Present_)  |
 | M.Tech. | Electrical Engineering | National Institute of Technology Raipur | (_Jul 2015 - Jul 2017_) |
 | B.E.    | Electrical Engineering | CSVTU, Bhilai                           | (_Jul 2010 - Jul 2014_) |
