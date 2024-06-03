@@ -6,6 +6,12 @@
 | M.Tech. | Electrical Engineering | National Institute of Technology Raipur | (_Jul 2015 - Jul 2017_) | <br>
 | B.E.    | Electrical Engineering | CSVTU, Bhilai                           | (_Jul 2010 - Jul 2014_) | 
 
+## Research Interests
+- Power System Protection and Relay Coordination, Microgrid Protection, Adaptive Relaying
+- Renewable Energy Integration
+- Fault Detection, Classification, and Location in Power Networks
+- Distribution System Modeling, Distribution System Short-Circuit Analysis with DERs
+
 ## Research Experience
 **Sr. Student Research Associate @ Indian Institute of Technology Kanpur (_Aug 2018 - Present_)**
 - Perform rigorous data analysis and preparation of project reports and presentations on real microgrid pilots developed by the Indian Institute of Technology Kanpur
