@@ -1,1 +1,6 @@
-# atulsonix.github.io
+# Atul's Homepage
+
+## Education
+
+## Research Experience
+
