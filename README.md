@@ -2,7 +2,7 @@
 
 ## Education
 - Ph.D., Electrical Engineering |
--- Indian Institute of Technology Kanpur (_Aug 2018 - Present_)								       		
+  - Indian Institute of Technology Kanpur (_Aug 2018 - Present_)								       		
 - M.Tech., Electrical Engineering	| National Institute of Technology Raipur (_Jul 2017_)	 			        		
 - B.E., Electrical Engineering | CSVTU, Bhilai (_Jul 2014_)
 
