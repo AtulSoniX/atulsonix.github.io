@@ -2,8 +2,8 @@
 
 ## Education
 
-| Ph.D.   | Electrical Engineering | Indian Institute of Technology Kanpur   | (_Aug 2018 - Present_)  | <br>
-| M.Tech. | Electrical Engineering | National Institute of Technology Raipur | (_Jul 2015 - Jul 2017_) | <br>
+| Ph.D.   | Electrical Engineering | Indian Institute of Technology Kanpur   | (_Aug 2018 - Present_)  | 
+| M.Tech. | Electrical Engineering | National Institute of Technology Raipur | (_Jul 2015 - Jul 2017_) | 
 | B.E.    | Electrical Engineering | CSVTU, Bhilai                           | (_Jul 2010 - Jul 2014_) | 
 
 ## Research Interests
@@ -67,10 +67,10 @@
 
 ## Volunteering Experiences
 
-| Mentor, IEEE PES Student Branch Chapter IIT Kanpur | _2023_ | <br>
-| Chairperson, IEEE PES Student Branch Chapter IIT Kanpur | _2022_ | <br>
-| Secretary, IEEE PES Student Branch Chapter IIT Kanpur | _2021_ | <br>
-| Webmaster, IEEE PES Student Branch Chapter IIT Kanpur | _2020_ | <br>
+| Mentor, IEEE PES Student Branch Chapter IIT Kanpur | _2023_ | 
+| Chairperson, IEEE PES Student Branch Chapter IIT Kanpur | _2022_ | 
+| Secretary, IEEE PES Student Branch Chapter IIT Kanpur | _2021_ | 
+| Webmaster, IEEE PES Student Branch Chapter IIT Kanpur | _2020_ | 
 | Volunteer, IEEE UP PES-IAS Congress | _2019_ |
 
 
