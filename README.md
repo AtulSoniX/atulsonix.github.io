@@ -33,20 +33,20 @@
 - Developed a Graphical User Interface using **MATLAB** that shows the location of the faulted line in a distribution network.
 
 **Master Student Researcher (_Jul 2016 – Jun 2017_)**
-- Simulated a real combined overhead line and underground cable transmission system using Simulink/MATLAB to perform fault analysis by implementing the eleven types of shunt faults at various locations
+- Simulated a real combined overhead line and underground cable transmission system using Simulink/MATLAB to perform fault analysis by implementing the eleven types of shunt faults at various locations.
 
 ## Research Publications
 
 ### Journals
-- **Atul Kumar Soni**, A. Mohapatra and S. N. Singh, "Protection Coordination in AC Microgrid via Novel Voltage-Supervised Directional Over-Current Relays," IEEE Transactions on Power Delivery, vol. 39, no. 3, pp. 1549-1562, June 2024.
-- S. K. Maurya, **Atul Kumar Soni**, A. Mohapatra, and A. Sharma, “Optimal single settings based relay coordination in dc microgrids for line faults,” International Journal of Electrical Power & Energy Systems, vol. 156, p. 109 708, 2024.
-- **Atul Kumar Soni**, A. Kumar, R. K. Panda, A. Mohapatra, and S. N. Singh, “Adaptive coordination of relays in ac microgrid considering operational and topological changes,” IEEE Systems Journal, vol. 17, no. 2, pp. 3071–3082, 2023.
-- B. K. Chaitanya, **Atul Kumar Soni**, and A. Yadav, “Communication assisted fuzzy based adaptive protective relaying scheme for microgrid,” Journal of Power Technologies, vol. 98, no. 1, pp. 57–69, 2018
+- **Atul Kumar Soni**, A. Mohapatra and S. N. Singh, "Protection Coordination in AC Microgrid via Novel Voltage-Supervised Directional Over-Current Relays," IEEE Transactions on Power Delivery, vol. 39, no. 3, pp. 1549-1562, June 2024. [Publication](https://doi.org/10.1109/TPWRD.2024.3368624)
+- S. K. Maurya, **Atul Kumar Soni**, A. Mohapatra, and A. Sharma, “Optimal single settings based relay coordination in dc microgrids for line faults,” International Journal of Electrical Power & Energy Systems, vol. 156, p. 109 708, 2024. [Publication](https://doi.org/10.1016/j.ijepes.2023.109708)
+- **Atul Kumar Soni**, A. Kumar, R. K. Panda, A. Mohapatra, and S. N. Singh, “Adaptive coordination of relays in ac microgrid considering operational and topological changes,” IEEE Systems Journal, vol. 17, no. 2, pp. 3071–3082, 2023. [Publication](https://doi.org/10.1109/JSYST.2022.3227311)
+- B. K. Chaitanya, **Atul Kumar Soni**, and A. Yadav, “Communication assisted fuzzy based adaptive protective relaying scheme for microgrid,” Journal of Power Technologies, vol. 98, no. 1, pp. 57–69, 2018. [Publication](https://papers.itc.pw.edu.pl/index.php/JPT/article/view/1075)
 
 ### Conference Conference Proceedings
-- **Atul Kumar Soni**, A. Mohapatra and S. N. Singh, "Protection Coordination in AC Microgrid via Novel Voltage-Supervised Directional Over-Current Relays," poster to be presented in upcoming 2024 IEEE Power and Energy Society General Meeting.
-- **Atul Kumar Soni**, R. K. Panda, A. Kumar, A. Mohapatra, S. N. Singh, and S. C. Srivastava, “Impact of control parameters on short-circuit capacity of inverter based sources,” in 2022 IEEE IAS Global Conference on Emerging Technologies (GlobConET), 2022, pp. 1113–1118.
-- B. Ingre, A. Yadav, and **Atul Kumar Soni**, “Decision tree based intrusion detection system for nsl-kdd dataset,” in Information and Communication Technology for Intelligent Systems (ICTIS 2017), vol. 2, Springer International Publishing, 2018, pp. 207–218.
+- **Atul Kumar Soni**, A. Mohapatra and S. N. Singh, "Protection Coordination in AC Microgrid via Novel Voltage-Supervised Directional Over-Current Relays," poster to be presented in upcoming 2024 IEEE Power and Energy Society General Meeting. 
+- **Atul Kumar Soni**, R. K. Panda, A. Kumar, A. Mohapatra, S. N. Singh, and S. C. Srivastava, “Impact of control parameters on short-circuit capacity of inverter based sources,” in 2022 IEEE IAS Global Conference on Emerging Technologies (GlobConET), 2022, pp. 1113–1118. [Publication](https://doi.org/10.1109/GlobConET53749.2022.9872458)
+- B. Ingre, A. Yadav, and **Atul Kumar Soni**, “Decision tree based intrusion detection system for nsl-kdd dataset,” in Information and Communication Technology for Intelligent Systems (ICTIS 2017), vol. 2, Springer International Publishing, 2018, pp. 207–218. [Publication](https://link.springer.com/chapter/10.1007/978-3-319-63645-0_23)
 
 ## Awards
 - Winner, AWSAR (Augmenting Writing Skills for Articulating Research) (_2022_)
