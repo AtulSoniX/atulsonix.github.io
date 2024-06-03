@@ -1,4 +1,4 @@
-# Atul Kumar Soni
+### Pursuing Ph.D. in the field of Power Engineering, focussing on Adaptive Protection Strategies in AC Microgrids.
 
 ## Education
 
