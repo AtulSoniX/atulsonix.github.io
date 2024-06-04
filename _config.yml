@@ -5,16 +5,23 @@ logo: assets/IMG_1815 - Copy.jpg
 # description: Ph.D. Student
 
 footer:
-
+  show_powered_by: true
   contact:
     - name: Email
-      value: vipular@iitk.ac.in
-      link: mailto:vipular@iitk.ac.in
-
+      value: yourmail@domain.com
+      link: mailto:yourmail@domain.com
+    - name: WeChat
+      value: YourWeChatUsername
+      link: "#"
   follow:
-
+    - name: Twitter
+      link: http://twitter.com/YourTwitterUsername
+      username: "@YourTwitterUsername"
+    - name: Facebook
+      link: http://facebook.com/YourFacebookUsername
+    - name: LinkedIn
+      link: http://linkedin.com/in/YourLinkedInUsername
     - name: GitHub
-      link: http://github.com/madhavlab
-      
-    - name: YouTube
-      link: https://www.youtube.com/c/MADHAVlabIITK
+      link: http://github.com/YourGitHubUsername
+    - name: Weibo
+      link: http://weibo.com/u/YourWeiboUsername
