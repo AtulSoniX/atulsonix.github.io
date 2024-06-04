@@ -73,6 +73,30 @@
 | Webmaster, IEEE PES Student Branch Chapter IIT Kanpur | _2020_ | 
 | Volunteer, IEEE UP PES-IAS Congress | _2019_ |
 
+## Footer
+
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: yourmail@domain.com
+      link: mailto:yourmail@domain.com
+    - name: WeChat
+      value: YourWeChatUsername
+      link: "#"
+  follow:
+    - name: Twitter
+      link: http://twitter.com/YourTwitterUsername
+      username: "@YourTwitterUsername"
+    - name: Facebook
+      link: http://facebook.com/YourFacebookUsername
+    - name: LinkedIn
+      link: http://linkedin.com/in/YourLinkedInUsername
+    - name: GitHub
+      link: http://github.com/YourGitHubUsername
+    - name: Weibo
+      link: http://weibo.com/u/YourWeiboUsername
+
 
 
 
