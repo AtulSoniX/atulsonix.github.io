@@ -1,6 +1,6 @@
 ### Pursuing Ph.D. in the field of Power Engineering, focussing on Adaptive Protection Strategies in AC Microgrids.
 
-[![Linkedin](https://i.sstatic.net/gVE0j.png) LinkedIn](https://www.linkedin.com/soni-atul/)
+[![Linkedin](https://i.sstatic.net/gVE0j.png) LinkedIn](https://www.linkedin.com/in/soni-atul)
 
 ## Education
 
