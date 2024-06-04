@@ -4,3 +4,17 @@ theme: jekyll-theme-minimal
 logo: assets/IMG_1815 - Copy.jpg
 # description: Ph.D. Student
 
+footer:
+
+  contact:
+    - name: Email
+      value: vipular@iitk.ac.in
+      link: mailto:vipular@iitk.ac.in
+
+  follow:
+
+    - name: GitHub
+      link: http://github.com/madhavlab
+      
+    - name: YouTube
+      link: https://www.youtube.com/c/MADHAVlabIITK
