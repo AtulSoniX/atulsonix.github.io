@@ -4,6 +4,13 @@ theme: jekyll-theme-minimal
 logo: assets/IMG_1815 - Copy.jpg
 # description: Ph.D. Student
 
+header:
+  pages:
+    - name: Home
+      slug: /     # <-- index.md
+    - name: Publications  # <-- blog.md
+    - name: Whatever  # <-- whatever.md
+
 footer:
   show_powered_by: true
   contact:
