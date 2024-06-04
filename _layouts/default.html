@@ -31,8 +31,8 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.linkedin %}
-        <i class="fa fa-envelope" aria-hidden="true"></i> <a href="{{  linkedin | "/" }}">LinkedIn</a>
+        {% if site.github.is_linkedin %}
+        <p class="view"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="{{  site.github.linkedin }}">LinkedIn</a></p>
         {% endif %}
         
         
