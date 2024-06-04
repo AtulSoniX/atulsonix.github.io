@@ -1,5 +1,7 @@
 ### Pursuing Ph.D. in the field of Power Engineering, focussing on Adaptive Protection Strategies in AC Microgrids.
 
+[![Linkedin](https://i.sstatic.net/gVE0j.png) LinkedIn](https://www.linkedin.com/soni-atul/)
+
 ## Education
 
 | Ph.D.   | Electrical Engineering | Indian Institute of Technology Kanpur   | (_Aug 2018 - Present_)  | 
