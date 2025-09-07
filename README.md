@@ -1,96 +1,96 @@
-### Pursuing Ph.D. in the field of Power Engineering, focussing on Adaptive Protection Strategies in AC Microgrids.
+# Academic Pages
+**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
-## Education
+![Academic Pages template example](images/homepage.png "Academic Pages template example")
 
-| Ph.D.   | Electrical Engineering | Indian Institute of Technology Kanpur   | (_Aug 2018 - Present_)  | 
-| M.Tech. | Electrical Engineering | National Institute of Technology Raipur | (_Jul 2015 - Jul 2017_) | 
-| B.E.    | Electrical Engineering | CSVTU, Bhilai                           | (_Jul 2010 - Jul 2014_) | 
+# Getting Started
 
-## Research Interests
-- Power System Protection and Relay Coordination, Microgrid Protection, Adaptive Relaying
-- Renewable Energy Integration
-- Fault Detection, Classification, and Location in Power Networks
-- Distribution System Modeling, Distribution System Short-Circuit Analysis with DERs
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Click the "Use this template" button in the top right.
+1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and add your content.
+1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
+1. Check status by going to the repository settings, in the "GitHub pages" section
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-## Skills
-- **Languages**: MATLAB, Python, C, Markdown
-- **Software Tools**: RSCAD, MATLAB, Simulink, Simscape, MATLAB Optimization Toolbox, Fuzzy Logic Toolbox
-- **Hardware Tools**: RTDS, NRDE, dSPACE 1104, SEL421 Relay, Arduino UNO and MEGA, TI MSP430
-- **Editing Tools**: LaTeX, Microsoft Office (Word, Excel, PowerPoint, Visio and Publisher), Canva, WordPress
+See more info at https://academicpages.github.io/
 
-## Research Experience
-**Sr. Student Research Associate @ Indian Institute of Technology Kanpur (_Oct 2023 - Present_)**
-- Perform rigorous data analysis and preparation of project reports and presentations on real microgrid pilots developed by the Indian Institute of Technology Kanpur
+## Running locally
 
-**Doctoral Student Researcher @ Indian Institute of Technology Kanpur (_Aug 2018 - Present_)**
-- Simulation of microgrids and unbalanced distribution systems with DERs in **Real-Time Digital Simulator (RTDS)**.
-- Developed an algorithm in **MATLAB** for adaptive coordination of Directional Over-Current Relays and proposed a novel relay characteristic for robust coordination of the proposed relays.
-- **Controller-Hardware-in-Loop** simulations using **RTDS with dSPACE DS1104, NRDE, SEL421 relay**.
-- Developed a software tool using **MATLAB** for Distribution System Load Flow and Short-Circuit Analysis with detailed modeling of distribution system components.
+When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
 
-**Winning Team Member, Smart India Hackathon @ Indian Institute of Technology Kanpur (_Sep 2018 – Mar 2019_)**
-- Winner of SIH (Smart India Hackathon) for the problem statement "To locate the fault in the distribution network for ad-hoc maintenance" by ABB GIS Pvt. Ltd.
-- Developed a Graphical User Interface using **MATLAB** that shows the location of the faulted line in a distribution network.
+1. Clone the repository and made updates as detailed above.
 
-**Master Student Researcher (_Jul 2016 – Jun 2017_)**
-- Simulated a real combined overhead line and underground cable transmission system using Simulink/MATLAB to perform fault analysis by implementing the eleven types of shunt faults at various locations.
+### Using a different IDE
+1. Make sure you have ruby-dev, bundler, and nodejs installed
+    
+    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
+    ```bash
+    sudo apt install ruby-dev ruby-bundler nodejs
+    ```
+    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
+    ```bash
+    sudo apt update && sudo apt upgrade -y
+    ```
+    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
 
-## Research Publications
+    On MacOS the commands are:
+    ```bash
+    brew install ruby
+    brew install node
+    gem install bundler
+    ```
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 
-### Journals
-- **Atul Kumar Soni**, A. Mohapatra and S. N. Singh, "Protection Coordination in AC Microgrid via Novel Voltage-Supervised Directional Over-Current Relays," IEEE Transactions on Power Delivery, vol. 39, no. 3, pp. 1549-1562, June 2024. [Publication](https://doi.org/10.1109/TPWRD.2024.3368624)
-- S. K. Maurya, **Atul Kumar Soni**, A. Mohapatra, and A. Sharma, “Optimal single settings based relay coordination in dc microgrids for line faults,” International Journal of Electrical Power & Energy Systems, vol. 156, p. 109 708, 2024. [Publication](https://doi.org/10.1016/j.ijepes.2023.109708)
-- **Atul Kumar Soni**, A. Kumar, R. K. Panda, A. Mohapatra, and S. N. Singh, “Adaptive coordination of relays in ac microgrid considering operational and topological changes,” IEEE Systems Journal, vol. 17, no. 2, pp. 3071–3082, 2023. [Publication](https://doi.org/10.1109/JSYST.2022.3227311)
-- B. K. Chaitanya, **Atul Kumar Soni**, and A. Yadav, “Communication assisted fuzzy based adaptive protective relaying scheme for microgrid,” Journal of Power Technologies, vol. 98, no. 1, pp. 57–69, 2018. [Publication](https://papers.itc.pw.edu.pl/index.php/JPT/article/view/1075)
+    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
+    Install Gems Locally (Recommended):
+    ```bash
+    bundle config set --local path 'vendor/bundle'
+    ```
+    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
 
-### Conference Conference Proceedings
-- **Atul Kumar Soni**, A. Mohapatra and S. N. Singh, "Protection Coordination in AC Microgrid via Novel Voltage-Supervised Directional Over-Current Relays," poster to be presented in upcoming 2024 IEEE Power and Energy Society General Meeting. 
-- **Atul Kumar Soni**, R. K. Panda, A. Kumar, A. Mohapatra, S. N. Singh, and S. C. Srivastava, “Impact of control parameters on short-circuit capacity of inverter based sources,” in 2022 IEEE IAS Global Conference on Emerging Technologies (GlobConET), 2022, pp. 1113–1118. [Publication](https://doi.org/10.1109/GlobConET53749.2022.9872458)
-- B. Ingre, A. Yadav, and **Atul Kumar Soni**, “Decision tree based intrusion detection system for nsl-kdd dataset,” in Information and Communication Technology for Intelligent Systems (ICTIS 2017), vol. 2, Springer International Publishing, 2018, pp. 207–218. [Publication](https://link.springer.com/chapter/10.1007/978-3-319-63645-0_23)
+1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
 
-## Awards
-- Winner, AWSAR (Augmenting Writing Skills for Articulating Research) (_2022_)
-  - sponsored by the Department of Science and Technology (DST), Government of India, for the top 100 Popular Science Stories under Ph.D. Category
-- Winner, Smart India Hackathon (SIH) (_2019_)
-  - sponsored by Ministry of HRD and AICTE
-- Winner, PPSA (POSOCO Power System Award) (_2018_)
-  - sponsored by POSOCO, FITT, IIT Delhi, for Master’s Thesis
-- Semifinalist, India Innovation Challenge Design Contest (IICDC) (_2016_)
-  - sponsored by DST, Texas Instruments, and IIM Bangalore
-- Best Video Award, IICDC (_2016_)
-  - sponsored by DST, Texas Instruments, and IIM Bangalore
+If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 
-## Achievements
-- Received fully sponsored training program sponsored by IEEE PES R10 Student Chapters Committee, held in Singapore along with ISGT 22
-- Received second largest funding in Region 10 worth 400 USD from IEEE PES High Performing Student Branch Chapter Program (HPSBCP) 2023, serving as the Chairperson of the Student Branch Chapter of IIT Kanpur
-- 10th rank in Chhattisgarh state during Higher Secondary Board Exams
+## Using Docker
 
-## Volunteering Experiences
+Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
 
-| Mentor, IEEE PES Student Branch Chapter IIT Kanpur | _2023_ | 
-| Chairperson, IEEE PES Student Branch Chapter IIT Kanpur | _2022_ | 
-| Secretary, IEEE PES Student Branch Chapter IIT Kanpur | _2021_ | 
-| Webmaster, IEEE PES Student Branch Chapter IIT Kanpur | _2020_ | 
-| Volunteer, IEEE UP PES-IAS Congress | _2019_ |
+You can build and execute the container by running the following command in the repository:
 
+```bash
+chmod -R 777 .
+docker compose up
+```
 
+You should now be able to access the website from `localhost:4000`.
 
+### Using the DevContainer in VS Code
 
+If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
 
+# Maintenance
 
+Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
 
+This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
 
+## Bugfixes and enhancements
 
+If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
 
+Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
 
+---
+<div align="center">
+    
+![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
+[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-
-
-
-
-
-
-
-
-
-
+[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
+[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+</div>

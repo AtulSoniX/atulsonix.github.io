@@ -1,65 +1,25 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1 social-links">
-        <h4>EMAIL</h4>
+{% include base_path %}
 
-        {% for contact in site.footer.contact %}
+{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+    {% if site.author.github %}
+      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.bitbucket %}
+      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% endif %}
+    {% if site.atom_feed.hide != true %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endif %}
+  </ul>
+</div>
+{% endif %}
 
-          {% assign contact_icon_path = "/assets/img/icons/" | append: contact.name | downcase | append: ".png" | absolute_url %}
-          <img
-            src="{{ contact_icon_path }}"
-            alt="{{ contact.name | downcase }}"
-          />
-          <a href="{{ contact.link }}" id="{{ contact.name | downcase }}-link">
-            {% if contact.value and contact.value != "" and contact.value != nil %}
-              {{ contact.value }}
-            {% else %}
-              {{ contact.name }}
-            {% endif %}
-          </a>
-          <br />
-
-        {% endfor %}
-      </div>
-
-
-      <div class="footer-col footer-col-2 social-links">
-        <h4>FOLLOW</h4>
-
-        {% for follow in site.footer.follow %}
-          <span class="wrap-link">
-
-            {% assign follow_icon_path = "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url %}
-            <img
-              src="{{ follow_icon_path }}"
-              alt="{{ follow.name | downcase }}"
-            />
-            <a href="{{ follow.link }}">
-              {% if follow.value and follow.value != "" and follow.value != nil %}
-                {{ follow.value }}
-              {% else %}
-                {{ follow.name }}
-              {% endif %}
-            </a>
-          </span>
-
-          {% assign mod = forloop.index | modulo: 2 %} {% if mod == 0 %}
-            <br />
-          {% endif %}
-
-        {% endfor %}
-      </div>
-
-      {% if site.footer.show_powered_by == true %}
-        <div class="footer-col footer-col-3 powered-by">
-          <p>
-            powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y" }}
-          </p>
-        </div>
-      {% endif %}
-    </div>
-  </div>
-</footer>
-
-{% include wechat-widget.html %}
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  Site last updated {{ "now" | date: '%Y-%m-%d' }}
+</div>
