@@ -24,8 +24,8 @@ redirect_form:
 
 # Professional Experiences
 
-**Engineer, Transmission Planning and Grid Integration Studies**, EEPLUS Inc., (Since November 2024)
-**Sr. Student Research Associate**, Department of Electrical Engineering, IIT Kanpur, (October 2023 – June 2024)
+| Engineer, Transmission Planning and Grid Integration Studies | EEPLUS Inc. | Since November 2024 |
+| Sr. Student Research Associate | IIT Kanpur | October 2023 – June 2024
 
 
 # Research Interests
