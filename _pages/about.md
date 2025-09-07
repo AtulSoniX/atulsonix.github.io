@@ -16,8 +16,8 @@ redirect_form:
 
 # Education
 
-| Degree | Institution | Year | Details |
-|--------|-------------|------|---------|
+| Degree | Institution | Year |
+|--------|-------------|------|
 | Ph.D. in Electrical Engineering | IIT Kanpur, India | 2025 | 
 | M.Tech. in Electrical Engineering | NIT Raipur, India | 2017 |
 | B.E. in Electrical Engineering | CSVTU Bhilai, India | 2014 | 
