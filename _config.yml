@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Atul Kumar Soni / Atul's Homepage"
+title                    : "Atul's Homepage"
 title_separator          : "-"
 name                     : &name "Atul Kumar Soni"
 description              : &description "Transmission Planning Engineer, with a Ph.D. in Power Engineering"
