@@ -26,8 +26,8 @@ author:
   name             : "Atul Kumar Soni"
   pronouns         : "he/him"  
   bio              : "Ph.D. in Electrical Engineering (Specialization: Power Engineering)"
-  location         : ""
-  employer         : ""
+  location         : #
+  employer         : #
   uri              : # URL
   email            : "atulsoni.mailbox@gmail.com" 
 
@@ -53,7 +53,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
