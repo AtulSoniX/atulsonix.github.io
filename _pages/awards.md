@@ -1,11 +1,8 @@
 ---
-permalink: /
+layout: archive
 title: "Awards & Achievements"
-excerpt: "Awards and Achiemvements"
+permalink: /awards/
 author_profile: true
-redirect_form:
- - /awards/
- - /awards.html
 ---
 
 
