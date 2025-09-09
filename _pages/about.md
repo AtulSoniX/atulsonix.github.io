@@ -14,21 +14,21 @@ redirect_form:
 
 🧑🏻‍💻 Currently, I'm working as an Engineer, Transmission Planning and Grid Integration Studies at EEGrid Analytics Pvt. Ltd., which is a wholly owned subsidiary of EEPLUS Inc. In my current role at EEPLUS Inc., I have gained valuable experience in steady-state, short-circuit, and stability studies in transmission systems due to integration of large loads, conventional generating units, and inverter-interfaced resources.
 
-# Education
+## Education
 
-| Degree | Institution | Year |
-|--------|-------------|------|
-| Ph.D. in Electrical Engineering | IIT Kanpur, India | 2025 | 
-| M.Tech. in Electrical Engineering | NIT Raipur, India | 2017 |
+| Degree | Institution | Year | Supervisor(s) |
+|--------|-------------|------|---------------|
+| Ph.D. in Electrical Engineering | IIT Kanpur, India | 2025 | Prof. Abheejeet Mohapatra & Prof. Sri Niwas Singh |
+| M.Tech. in Electrical Engineering | NIT Raipur, India | 2017 | Prof. Anamika Yadav |
 | B.E. in Electrical Engineering | CSVTU Bhilai, India | 2014 | 
 
-# Professional Experiences
+## Professional Experiences
 
 | Engineer, Transmission Planning and Grid Integration Studies | EEPLUS Inc. | Since November 2024 |
 | Sr. Student Research Associate | IIT Kanpur | October 2023 – June 2024
 
 
-# Research Interests
+## Research Interests
 
  - Power System Protection
  - Modeling, control, and impact analysis in power system
