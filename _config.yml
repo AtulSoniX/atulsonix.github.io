@@ -6,12 +6,10 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-
-
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Atul's Homepage "
+title                    : "Atul's Homepage"
 title_separator          : "-"
 name                     : &name "Atul Kumar Soni"
 description              : &description " "
@@ -29,7 +27,7 @@ author:
   pronouns         : "he/him"  
   bio              : "Ph.D. in Electrical Engineering (Specialization: Power Engineering)"
   location         : #
-  employer         : #
+  employer         : EEPLUS Inc.
   uri              : # URL
   email            : "atulsoni.mailbox@gmail.com" 
 
@@ -49,13 +47,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "AtulSoniX"
+  github           : "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : # Replace this with you Bluesky username
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -64,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "soni-atul"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -231,9 +229,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  awards:
-    output: true
-    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -291,17 +286,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _awards
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
 
 
 # Sass/SCSS
