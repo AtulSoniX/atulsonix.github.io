@@ -231,7 +231,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  Awards:
+  awards:
     output: true
     permalink: /:collection/:path/
 
