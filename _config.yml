@@ -6,15 +6,11 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-header_pages:
-  - _pages/about.md
-  - _pages/publications.md
-  - _pages/awards.md
-  - _pages/cv.md
+
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Atul's Homepage "
 title_separator          : "-"
 name                     : &name "Atul Kumar Soni"
