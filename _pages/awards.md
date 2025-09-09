@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Awards & Achievements"
-excerpt: "About me"
+excerpt: "Awards and Achiemvements"
 author_profile: true
 redirect_form:
  - /awards/
